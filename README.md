@@ -25,7 +25,7 @@ conda install -c conda-forge ffmpeg==6.0
 pip install -r requirements.txt
 ```
 
-If needed, you can install the CUDA version of PyTorch using the following command.
+If needed, you can install the CUDA version of PyTorch using the following command.（Requires CUDA 12.1）
 ```bash
 pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 -f https://mirrors.aliyun.com/pytorch-wheels/cu121
 ```
