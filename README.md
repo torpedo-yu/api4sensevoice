@@ -25,6 +25,11 @@ conda install -c conda-forge ffmpeg==6.0
 pip install -r requirements.txt
 ```
 
+If needed, you can install the CUDA version of PyTorch using the following command.
+```bash
+pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 -f https://mirrors.aliyun.com/pytorch-wheels/cu121
+```
+
 ## Running
 
 ### Single Sentence Recognition API Server
@@ -45,6 +50,10 @@ You can also set these through command-line arguments, for example:
 
 ```bash
 python server.py --port 8888 --certfile path_to_your_certfile --keyfile path_to_your_key
+```
+Or start the service without SSL.
+```bash
+python server_wss_nossl.py --port 27000
 ```
 
 #### API Description
