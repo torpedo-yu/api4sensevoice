@@ -10,7 +10,7 @@ It has inherited some enhanced features for sensevoice:
 First, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/0x5446/api4sensevoice.git
+git clone https://github.com/torpedo-yu/api4sensevoice.git
 cd api4sensevoice
 ```
 
@@ -20,7 +20,7 @@ Then, install the required dependencies using the following command: 
 conda create -n api4sensevoice python=3.10
 conda activate api4sensevoice
 
-conda install -c conda-forge ffmpeg
+conda install -c conda-forge ffmpeg==6.0
 
 pip install -r requirements.txt
 ```
