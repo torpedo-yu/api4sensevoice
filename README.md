@@ -51,10 +51,6 @@ You can also set these through command-line arguments, for example:
 ```bash
 python server.py --port 8888 --certfile path_to_your_certfile --keyfile path_to_your_key
 ```
-Or start the service without SSL.
-```bash
-python server_wss_nossl.py --port 27000
-```
 
 #### API Description
 
@@ -116,6 +112,11 @@ You can also set these through command-line arguments, for example:
 
 ```bash
 python server_wss.py --port 8888 --certfile path_to_your_certfile --keyfile path_to_your_key
+```
+
+Or start the service without SSL.
+```bash
+python server_wss_nossl.py --port 27000
 ```
 
 If you want to enable speaker verification:
